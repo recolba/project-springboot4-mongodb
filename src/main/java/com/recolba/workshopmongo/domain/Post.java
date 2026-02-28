@@ -73,6 +73,7 @@ public class Post implements Serializable {
 		this.author = author;
 	}
 
+	
 	@Override
 	public int hashCode() {
 		return Objects.hash(id);
